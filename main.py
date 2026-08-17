@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    model = {"title": "Hello DevOps Fans."}
+    model = {"title": "Hello Build Trigger."}
     return render_template('index.html', model=model)
 
 if __name__ == "__main__":
